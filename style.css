@@ -120,7 +120,34 @@ justify-content: center;
 }
 .signup{
 flex: 1;
+background-color: #3882F6;
+margin: 96px;
+display: flex;
+justify-content: space-around;
+align-items: center;
 }
+.signup-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.action{
+    color: white;
+    font-size: 12px;
+}
+.product{
+    color: white;
+    font-size: 12px;
+}
+.signup-button{
+}
+.button2{
+    color: white;
+    background-color: #3882F6;
+    border: white solid 2px;
+    border-radius: 4px;
+}
+
 .footer{
 flex: 0.3;
 }
