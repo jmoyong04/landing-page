@@ -4,6 +4,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
+    height: 200vh;
+    
 }
 h1{
     padding: 0;
@@ -21,6 +23,8 @@ p{
     padding: 24px;
     padding-left: 48px;
     padding-right: 48px;
+    flex: 1;
+
 }
 .header{
     display: flex;
@@ -64,5 +68,60 @@ justify-content: space-between;
 .image{
     background-color: gray;
     padding: 24px;
+}
+.info{
+flex: 1;
+display: flex;
+flex-direction: column;
+}
+.info-description{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2936;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.illustrations{
+    display: flex;
+}
+.illustration{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.illustration-image{
+height: 100px;
+width: 100px;
+border: 2px solid blue;
+border-radius: 4px;
+}
+.illustration-subtext{
+text-align: center;
+color: gray;
+}
+.inspiration{
+flex: 1;
+background-color: #e5e7eb;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.quote{
+    font-size: 24px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 24px;
+}
+.credit{
+    text-align: right;
+    font-weight: 900;
+}
+.signup{
+flex: 1;
+}
+.footer{
+flex: 0.3;
 }
 
